@@ -1,4 +1,5 @@
 Anura Deshpande
+
 anurades@usc.edu
 
 Completed at the end of my curriculum experience in USC's CAIS++, I developed a convolutional neural network (CNN) to classify seven emotions based on images of human facial expressions.
