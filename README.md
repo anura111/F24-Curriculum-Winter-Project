@@ -10,7 +10,7 @@ I implemented a CNN due to its effectiveness in feature extraction and image cla
 
 The test accurcacy of the model was 0.57. The highest precision value was 0.24, while the highest recall was 0.25, both for the happy classification.
 
-The current dataset, model architecture, training procedures, and metrics are not fully optimized for robust emotion recognition and leave much room for improvement. The chosen CNN architecture could be effective for basic tasks, but is relatively simple and does not capture the intricate patterns required for distinguishing subtle nuances in between facial expressions. 
+The current dataset, model architecture, training procedures, and metrics are not fully optimized for robust emotion recognition and leave much room for improvement. The chosen CNN architecture is likely too simple and does not capture the intricate patterns required for distinguishing subtle nuances in between facial expressions. 
 
 This project can have significantly wider implications, such as enabling real-time facial expression recognition in interactive systems, including chatbots, robotics, and virtual assistants, which could enhance user experiences across industries like education, healthcare, and customer service. However, these applications come with limitations and ethical concerns. Facial scanning raises privacy issues, and implementing such systems requires adherence to data protection regulations and obtaining explicit user consent. Additionally, the dataset must remain current and culturally representative to avoid bias in predictions, as facial expressions and their interpretations can vary across demographics, suggesting the need for a larger and more diverse dataset than the implemented FER 2013.
 
