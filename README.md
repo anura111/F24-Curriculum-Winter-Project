@@ -8,7 +8,7 @@ The dataset utilized was Kaggle's "FER 2013," which contains 28,709 training ima
 
 I implemented a CNN due to its effectiveness in feature extraction and image classification tasks. The architecture consisted of three convolutional layers with filter sizes of 32, 128, and 256, kernel sizes of 3x3, and ReLU activation functions to capture non-linearities. This was followed by three max pooling layers of size 2x2 to reduce computational complexity, one flatten layer, and two dense layers, with the final layer comprising seven output classes and a softmax activation function. The model was trained using categorical cross-entropy loss, suitable for multiclass classification with one-hot encoding, and the Adam optimizer for its dynamic learning rate. Training was conducted over 20 epochs to minimize the risk of overfitting.
 
-The accurcacy of the model was _. The precision was _, while the recall was _.
+The test accurcacy of the model was 0.57. The highest precision value was 0.24, while the highest recall was 0.25, both for the happy classification.
 
 The current dataset, model architecture, training procedures, and metrics are not fully optimized for robust emotion recognition and leave much room for improvement. The chosen CNN architecture could be effective for basic tasks, but is relatively simple and does not capture the intricate patterns required for distinguishing subtle nuances in between facial expressions. 
 
